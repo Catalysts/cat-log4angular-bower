@@ -1,6 +1,6 @@
 {
   "name": "cat-log4angular",
-  "version": "14.12.17",
+  "version": "1.0.4",
   "homepage": "https://github.com/Catalysts/cat-log4angular",
   "description": "Configurable logger with log levels enhancing angulars $log service",
   "authors": [
