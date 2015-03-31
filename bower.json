@@ -1,13 +1,13 @@
 {
   "name": "cat-log4angular",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "homepage": "https://github.com/Catalysts/cat-log4angular",
   "description": "Configurable logger with log levels enhancing angulars $log service",
   "authors": [
     "Dominik Hurnaus <dominik.hurnaus@catalysts.cc>",
     "Thomas Scheinecker <thomas.scheinecker@catalysts.cc>"
   ],
-  "license": "The MIT License (MIT)",
+  "license": "MIT",
   "dependencies": {
     "angular": "^1.2.26"
   },
