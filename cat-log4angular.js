@@ -170,7 +170,7 @@ angular
                 };
             };
         }])
-    .config(function ($provide) {
+    .config(['$provide', function ($provide) {
         $provide.decorator('$log', ['$delegate', 'catLogService', 'ROOT_LOGGER_NAME', function ($delegate, catLogService, ROOT_LOGGER_NAME) {
             // instantiate  root logger
             var rootLogger = catLogService.Logger();
@@ -184,7 +184,7 @@ angular
 
             return $delegate;
         }]);
-    });
+    }]);
 
 'use strict';
 
